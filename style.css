@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-2-calculadora-certa.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.space {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.calculator {
+  margin: 0 auto;
+  width: 294px;
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+
+.screen {
+  width: 279px;
+  border: 0;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  background-color: #eaf8f3;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  color: rgb(68, 63, 63);
+  overflow-x: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.account div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #202020;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.panel-numbers {
+  display: inline-block;
+}
+
+.numbers div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #202020;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.equal {
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 102px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #fff;
+  background-color: #d11616;
+  transition: all 0.2s ease-in-out;
+}
